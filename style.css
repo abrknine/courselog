@@ -97,7 +97,111 @@ select {
 }
 
 /* nav css ends */ 
-.hero1 img{
+.hero1 img {
     width: 100%;
-    height: 700px;
+    height: 300px;
+
+
+
 }
+.hero1{
+    background-image: linear-gradient(to right,#f4f4fc,rgba(249,249,253,.2));
+}
+.hero2a{
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    position: relative;
+    bottom: 200px;
+    left: 190px;
+    color: white;
+    font-size: 18px;
+
+}
+.hero2b{
+    position: relative;
+    bottom: 220px;
+    left: 230px;
+    font-size: 34px;
+}
+/* section 1 */
+.sec{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.sec2 img{
+    width: 500px;
+    height: 300px;
+}
+.sec1 h3{
+    color: #f14d5d;
+    font-size: 18px;
+    font-weight: 600;
+}
+.sec1 h1{
+    font-size: 49px;
+    font-weight: 800;
+    color: #120f2d;
+}
+.sec1 p{
+    color: #58566b;
+} 
+
+/* stats cssq */
+ .stat1{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    
+ }
+ .stat1 li{
+    padding:  0px 28px;
+    border-right: 2px solid #e1e0e7;
+
+ }
+.plus{
+    font-size: 31px;
+    font-weight: 800;
+}
+.plus1{
+    font-size: 16px;
+    color: #58566b;
+    font-weight: 400;
+}
+/* feature css */
+.feat{
+ display: flex;
+ /* justify-content: space-between; */
+}
+.feat1{
+    background: linear-gradient(135deg,#7351ff 0%,#60bbff 100%);
+    padding:  50px 200px;
+}
+.feat1 h3{
+
+    color: #f14d5d;
+    font-size: 18px;
+    font-weight: 600;
+}
+.feat1 h1{
+    font-size: 49px;
+    font-weight: 800;
+    color: white;
+
+}
+.feat1 p{
+    color: rgb(240, 236, 236);
+} 
+.feat2a{
+    display: flex;
+
+}
+.feat2{
+    display: grid;
+    columns: 2;
+    background-color: #f8f8fc;
+    padding:  50px 400px;
+
+}
+
